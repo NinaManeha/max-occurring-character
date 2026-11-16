@@ -12,10 +12,8 @@ public class MaxOccurrenceCharacter {
         int maxCount = 0;
 
         for (int i = 0; i < str.length(); i++) {
-            // Приводим каждый символ к нижнему регистру на лету
             char ch = Character.toLowerCase(str.charAt(i));
 
-            // Игнорируем пробелы
             if (ch == ' ') {
                 continue;
             }
